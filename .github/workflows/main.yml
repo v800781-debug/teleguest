@@ -19,8 +19,9 @@ jobs:
 
       - name: Build APK
         run: |
-          find . -name "gradlew" -exec chmod +x {} \;
-          find . -name "gradlew" -execdir ./gradlew assembleDebug \;
+          cd приложение || cd app || true
+          chmod +x gradlew
+          ./gradlew assembleDebug
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
