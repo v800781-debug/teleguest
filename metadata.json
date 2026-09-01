@@ -1,0 +1,6 @@
+{
+  "name": "TeleGuest",
+  "description": "TeleGuest messenger with full Guest Mode support, private/public chat separation, phone number or quick guest login, and secure privacy PIN.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
